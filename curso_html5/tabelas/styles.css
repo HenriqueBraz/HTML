@@ -1,0 +1,35 @@
+/*table {
+    border-collapse: separate;
+    border-spacing: 10px 50px;
+}*/
+
+
+table {
+    border-collapse: collapse;
+    /*border-collapse: none;*/
+}
+
+
+table, th, td, th {
+   border: 1px solid black;
+   empty-cells: hide;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+thead{
+    background-color: #0062ac;
+    color: white;
+}
+
+table{
+    width: 50%
+}
+
+td{
+  /*padding: 20px */
+  text-align: right;
+}
+
